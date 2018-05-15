@@ -163,6 +163,7 @@ using namespace std;
 int main() {
     DirGraph G;
     G.readFromFile("DAG2.txt");
+    // am schimbat in cod
     std::vector<int> v = DAG::topologicalSort(G);
     std::cout << DAG::highestCostPath(G, 1 ,3);
     return 0;
